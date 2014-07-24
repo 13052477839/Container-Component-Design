@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="3c3b1668-6ea7-4b0e-abe1-9d49be2e433b" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <comments>
+    <comment Id="42435d9c-ecfd-49d7-957d-5cbf1e8216a9" name="Comment1">
+      <body>Service container hosts all the component and initializes them.</body>
+    </comment>
+    <comment Id="0d957ecc-258d-4a36-9291-af370d6f65b1" name="Comment2">
+      <body>components communicate each other thru' site object</body>
+    </comment>
+  </comments>
+  <layers>
+    <layer Id="28dafb0e-a5dd-4f8f-b4df-b757e5547e81" name="ServiceContainer">
+      <childLayers>
+        <layer Id="5c7f8c57-3d58-40e3-883d-bb7ee7059e03" name="ISites[]">
+          <childLayers>
+            <layer Id="d7b6a7c7-68fe-48f6-a4e1-1122011d782b" name="FileSite">
+              <dependencyToLayers>
+                <dependencyFromLayerToLayer Id="adec0616-1911-4204-a547-bad8c13fc3db" direction="Forward">
+                  <layerMoniker Id="b3ced2c6-81e9-4ce7-a3a0-363a85b6b133" />
+                </dependencyFromLayerToLayer>
+              </dependencyToLayers>
+            </layer>
+            <layer Id="9bc61de1-e0db-4fa6-b13b-f9e5723dd1d1" name="DirectorySite">
+              <dependencyToLayers>
+                <dependencyFromLayerToLayer Id="5845a4fd-e0c7-4e45-ae86-cb07c29a7f47" direction="Forward">
+                  <layerMoniker Id="0c963a3c-86cf-4a44-995f-1e03050feb44" />
+                </dependencyFromLayerToLayer>
+              </dependencyToLayers>
+            </layer>
+          </childLayers>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="b3ced2c6-81e9-4ce7-a3a0-363a85b6b133" name="FileBc" />
+    <layer Id="0c963a3c-86cf-4a44-995f-1e03050feb44" name="DirectoryBc" />
+    <layer Id="d4c6af47-967c-4e51-b72a-73cc107ad9fb" name="PluginFileBc" />
+    <layer Id="9be5e83b-b2b2-493d-a7d8-32d723d4ec03" name="PluginDirectoryBc" />
+  </layers>
+</layerModel>

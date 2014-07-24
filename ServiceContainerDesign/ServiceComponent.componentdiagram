@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="38860e78-ba29-4685-9031-b4a5b2a4c64e" name="UMLComponentDiagram1" linkedPackageId="60ed9aa0-88b3-478e-a2e4-111cba80d3ea" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="12f73a03-6695-4029-9a25-dccca6d393ef">
+      <profileInstance Id="c226dfbe-46a0-427d-9c42-e11200f6efc7" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e0b80f7e-5afc-4908-989b-2d894b021a65">
+      <profileInstance Id="d7be7a75-c3b6-412e-87bf-cc8d151c57e5" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ca9b8708-beb9-424f-ab63-6484ba0f5fb7">
+      <profileInstance Id="5ab30e26-b2b9-4584-bdc4-477e3039e840" name="CSharpProfile">
+        <elementDefinition Id="14f68b0f-d686-4beb-9f3d-7f7f126e8088" />
+      </profileInstance>
+      <elementDefinition Id="3e130959-d63b-4030-be01-172770a037f3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="2e27352b-789e-4f32-b650-966887d3b629" name="FileBc" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1a03b638-efd8-4efb-843b-18fbe14c8498" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="aa773823-dfe8-4dd6-a35d-ff28bebb10c0" name="PluginFileBc" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3822fa88-0310-4c0d-b7bd-62a2e7c02976" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="bd0444e9-531e-4aff-8c5b-b4edf5b99714" name="DirectoryBc" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="facef80e-f844-4059-a785-d943935dc902" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="4bfbb949-30d7-4c99-8ceb-bd4bfcf560ac" name="PluginDirectoryBc" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0294a539-bd82-4f85-a238-a14f10d7be7c" />
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="60ed9aa0-88b3-478e-a2e4-111cba80d3ea" name="ServiceContainerDesign">
+    <elementDefinition Id="65f521d9-fb67-4988-a8a6-5e5ba8bcbd9c" />
+  </package>
+</componentModel>
